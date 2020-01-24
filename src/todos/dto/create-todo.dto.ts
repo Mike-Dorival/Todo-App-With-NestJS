@@ -1,8 +1,7 @@
 export class CreateTodoDto {
-  readonly id: number;
   readonly title: string;
   readonly done: boolean;
-  readonly description?: string;
+  readonly description?: string; // le ? veut dire qu'il n'est pas obligatoire de remplir ce champs
 }
 
 // tslint:disable-next-line: max-line-length
